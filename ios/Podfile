@@ -8,8 +8,8 @@ target 'chicken_tinder_mobile' do
 
   use_react_native!(:path => config["reactNativePath"])
 
-  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
-
+  pod 'Firebase/Analytics'
+  
   target 'chicken_tinder_mobileTests' do
     inherit! :complete
     # Pods for testing

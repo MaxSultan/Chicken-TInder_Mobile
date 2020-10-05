@@ -20,6 +20,7 @@
 		71F09135EE74977EC1B1B3D1 /* libPods-chicken_tinder_mobile-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F3063C71D096F8BADDCDEA5 /* libPods-chicken_tinder_mobile-tvOS.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		9D4AC25FACA6A1B9EDD19FC2 /* libPods-chicken_tinder_mobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 990CD3786CA63CC5F7A94CE9 /* libPods-chicken_tinder_mobile.a */; };
+		C7B75CF6252ACAA200610B8F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7B75CF5252ACAA100610B8F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = chicken_tinder_mobile/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		865269A8ADB96E8C147437E2 /* Pods-chicken_tinder_mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chicken_tinder_mobile.release.xcconfig"; path = "Target Support Files/Pods-chicken_tinder_mobile/Pods-chicken_tinder_mobile.release.xcconfig"; sourceTree = "<group>"; };
 		990CD3786CA63CC5F7A94CE9 /* libPods-chicken_tinder_mobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-chicken_tinder_mobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B75CF5252ACAA100610B8F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D97E631C3C2C13CD2546155A /* libPods-chicken_tinder_mobile-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-chicken_tinder_mobile-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -125,6 +127,7 @@
 		13B07FAE1A68108700A75B9A /* chicken_tinder_mobile */ = {
 			isa = PBXGroup;
 			children = (
+				C7B75CF5252ACAA100610B8F /* GoogleService-Info.plist */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -194,7 +197,6 @@
 				155610587933EC5E6FF739C6 /* Pods-chicken_tinder_mobile-tvOSTests.debug.xcconfig */,
 				47956A03DB564875612FEF39 /* Pods-chicken_tinder_mobile-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -342,6 +344,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				C7B75CF6252ACAA200610B8F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
